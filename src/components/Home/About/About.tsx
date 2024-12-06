@@ -11,7 +11,7 @@ const About = () => {
                         About Me
                     </h2>
                     <p className="text-base font-mono md:text-lg text-gray-300 mb-6 leading-relaxed tracking-wide">
-                        Yo! I'm a passionate frontend developer, always on the lookout for new challenges. I specialize in crafting sleek and functional web interfaces. With a focus on accessibility and user experience, I strive to build products that are not just functional but beautiful and easy to use. I believe that with the right code, we can shape the future of the digital world.
+                        Yo! I&apos;m a passionate frontend developer, always on the lookout for new challenges. I specialize in crafting sleek and functional web interfaces. With a focus on accessibility and user experience, I strive to build products that are not just functional but beautiful and easy to use. I believe that with the right code, we can shape the future of the digital world.
                     </p>
                     {/* Skills */}
                     <div className="mt-8">

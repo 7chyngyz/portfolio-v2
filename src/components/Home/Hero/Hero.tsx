@@ -34,7 +34,7 @@ const Hero = () => {
                     I’m a <span className="text-gray-500">{position}</span>
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg lg:text-[17px] mt-6 text-gray-400 leading-relaxed tracking-widest font-mono">
-                    What’s good? I'm a frontend developer who’s all about that next-level digital hustle. I craft web interfaces that hit hard. From flawless design to killer user experience, I’m here to make the web feel like art.
+                    What&apos;s good? I&apos;m a frontend developer who&apos;s all about that next-level digital hustle. I craft web interfaces that hit hard. From flawless design to killer user experience, I&apos;m here to make the web feel like art.
                 </p>
 
                 {/* Button to Scroll */}
@@ -42,7 +42,7 @@ const Hero = () => {
                     onClick={scrollToSection}
                     className="mt-12 py-3 px-8 bg-transparent border-2 border-gray-600 text-gray-300 font-mono rounded-lg hover:bg-gray-600 hover:border-gray-500 hover:text-white transition-all duration-300 transform hover:scale-110"
                 >
-                    Let’s Talk
+                    Let&apos;s Talk
                 </button>
             </div>
 

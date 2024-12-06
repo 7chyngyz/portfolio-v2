@@ -37,19 +37,20 @@ const Contact = () => {
             });
             reset();
             toast.success("Message sent successfully!", { autoClose: 2000 });
-        } catch (error) {
-            toast.error("Please try again later.", { autoClose: 2000 });
+        } catch {
+            toast.error("Please try again later.", { autoClose: 2000, });
         }
     };
+
 
     return (
         <section id="contact" className="py-16 bg-gray-900 text-white">
             <div className="max-w-2xl mx-auto px-8 text-center">
                 <h2 className="text-4xl sm:text-5xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-600 mb-10 uppercase tracking-wide">
-                    Let’s Talk Business
+                    Let&apos;s Talk Business
                 </h2>
                 <p className="text-lg mb-8 text-gray-400">
-                    You got a project? I got the skills. Let’s get it done.
+                    You got a project? I got the skills. Let&apos;s get it done.
                 </p>
 
                 <form onSubmit={handleSubmit(onSubmit)} className="bg-gray-900 p-8 rounded-lg shadow-xl space-y-6">
