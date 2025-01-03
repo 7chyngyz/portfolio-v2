@@ -1,5 +1,4 @@
 "use client";
-import { projects } from "@/data/Data";
 import Link from "next/link";
 import React, { useState } from "react";
 
