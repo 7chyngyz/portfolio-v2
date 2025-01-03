@@ -18,7 +18,7 @@ const Hero = () => {
         >
             {/* Intro Text */}
             <div className="absolute top-24 left-1/2 transform -translate-x-1/2">
-                <p className="font-mono text-2xl text-gray-400">Yo, my name is</p>
+                <p className="font-mono text-2xl text-gray-400">Hi, my name is</p>
             </div>
 
             {/* Name */}

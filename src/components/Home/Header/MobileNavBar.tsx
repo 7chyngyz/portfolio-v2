@@ -16,6 +16,7 @@ const MobileNavBar = ({ closeNav, showNav }: Props) => {
             <div
                 className={`fixed ${navOpen} transform transition-all duration-500
          inset-0 z-[1000] bg-black opacity-70 w-full h-screen`}
+                onClick={closeNav}
             ></div>
             <div
                 className={`text-white ${navOpen} transform transition-all duration-500 delay-300
@@ -23,7 +24,11 @@ const MobileNavBar = ({ closeNav, showNav }: Props) => {
         w-[80%] sm:w-[60%] bg-slate-800 space-y-6 z-[10000]`}
             >
                 {navLinks.map((navlink) => (
-                    <Link key={navlink.id} href={navlink.url}>
+                    <Link
+                        key={navlink.id}
+                        href={navlink.url}
+                        onClick={closeNav}
+                    >
                         <p
                             className="nav__link text-[20px] ml-12 border-b-[1.5px] pb-2
             border-white sm:text-[30px]"

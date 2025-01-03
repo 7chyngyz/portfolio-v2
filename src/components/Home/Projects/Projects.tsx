@@ -3,8 +3,38 @@ import { projects } from "@/data/Data";
 import Link from "next/link";
 import React, { useState } from "react";
 
+interface Project {
+    image: string;
+    title: string;
+    description: string;
+    link: string;
+}
+
 const Projects = () => {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
+    const projects: Project[] = [
+        {
+            title: "I Ant Studio",
+            description:
+                "High-performance e-commerce platform optimized for user experience and scalability.",
+            image: "/assets/iantstudio.jpg",
+            link: "https://www.iant.kg/",
+        },
+        {
+            title: "EcoMovie",
+            description:
+                "During my studies, I developed the Kino Movie website, which is a platform for viewing information about movies and TV series. The project was created to practice developing user interfaces and interacting with APIs.",
+            image: "./assets/ecomovie.jpg",
+            link: "https://kino-movie-sandy.vercel.app/",
+        },
+        {
+            title: "Fake-Store",
+            description:
+                "During my studies, I also developed the Fake Store website, which is a simple and user-friendly online store with basic functionality for showcasing products.",
+            image: "./assets/face-store.png",
+            link: "https://fake-store-blush-nu.vercel.app/",
+        },
+    ];
     console.log(setActiveIndex);
 
 

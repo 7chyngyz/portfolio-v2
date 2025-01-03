@@ -15,7 +15,7 @@ const Experience = () => {
                                 Frontend Developer
                             </h3>
                             <p className="text-sm text-gray-400 font-mono mb-4">
-                                XYZ Corp | 2023 - Present
+                                Motion Web IT Studio | 2024 - Present
                             </p>
                             <p className="text-gray-400 leading-relaxed">
                                 Developed dynamic web applications with React and Next.js. Collaborated with the design team to create seamless user interfaces, and optimized website performance and accessibility.
@@ -26,18 +26,17 @@ const Experience = () => {
                     <div className="sm:pl-16 sm:text-left text-center">
                         <div className="mt-8 sm:ml-8">
                             <h3 className="text-xl sm:text-2xl font-bold text-gray-300">
-                                UI/UX Designer
+                                Frontend Developer
                             </h3>
                             <p className="text-sm text-gray-400 font-mono mb-4">
-                                ABC Studios | 2021 - 2023
+                                I Ant IT Studio | 2024
                             </p>
                             <p className="text-gray-400 leading-relaxed">
-                                Created wireframes, prototypes, and user flows for new applications. Worked closely with clients to understand their vision and requirements, and conducted user testing to improve usability.
-                            </p>
+                                Developed interactive web applications on React and Next.js, ensuring smooth operation and excellent user navigation. Together with designers, created visually attractive and user-friendly interfaces, optimizing loading speed and accessibility of sites for different devices.                            </p>
                         </div>
                     </div>
                     {/* Experience 3 */}
-                    <div className="sm:pl-16 sm:text-left text-center">
+                    {/* <div className="sm:pl-16 sm:text-left text-center">
                         <div className="mt-8 sm:ml-8">
                             <h3 className="text-xl sm:text-2xl font-bold text-gray-300">
                                 Web Developer Intern
@@ -49,7 +48,7 @@ const Experience = () => {
                                 Assisted in front-end development using HTML, CSS, and JavaScript. Developed responsive layouts for web applications and contributed to backend development with Node.js.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

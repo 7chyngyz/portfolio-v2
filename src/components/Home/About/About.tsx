@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from '../../../../public/assets/masha.jpg'
+import aboutImg from '../../../../public/assets/aboutImg.webp'
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
                         About Me
                     </h2>
                     <p className="text-base font-mono md:text-lg text-gray-300 mb-6 leading-relaxed tracking-wide">
-                        Yo! I&apos;m a passionate frontend developer, always on the lookout for new challenges. I specialize in crafting sleek and functional web interfaces. With a focus on accessibility and user experience, I strive to build products that are not just functional but beautiful and easy to use. I believe that with the right code, we can shape the future of the digital world.
+                        Hello! My name is Chyngyz, i&apos;m a passionate frontend developer, always on the lookout for new challenges. I specialize in crafting sleek and functional web interfaces. With a focus on accessibility and user experience, I strive to build products that are not just functional but beautiful and easy to use. I believe that with the right code, we can shape the future of the digital world.
                     </p>
                     {/* Skills */}
                     <div className="mt-8">
@@ -20,18 +20,18 @@ const About = () => {
                         </h3>
                         <div className="flex gap-20">
                             <ul className="mt-4 font-mono text-gray-400 text-base space-y-2">
-                                <li>React / Next.js</li>
-                                <li>UI/UX Design</li>
+                                <li>HTML / CSS</li>
+                                <li>Prisma ORM</li>
                                 <li>JavaScript / TypeScript</li>
                                 <li>Tailwind CSS / SCSS</li>
                                 <li>Git & GitHub</li>
                             </ul>
                             <ul className="mt-4 font-mono text-gray-400 text-base space-y-2">
                                 <li>React / Next.js</li>
-                                <li>UI/UX Design</li>
-                                <li>JavaScript / TypeScript</li>
-                                <li>Tailwind CSS / SCSS</li>
-                                <li>Git & GitHub</li>
+                                <li>Git / GitHub</li>
+                                <li>Firebase / Supabase</li>
+                                <li>Redux / Redux Toolkit</li>
+                                <li>Swagger</li>
                             </ul>
                         </div>
                     </div>
